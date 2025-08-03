@@ -32,44 +32,41 @@ This project is an end-to-end **Spam Message Classifier** that uses NLP techniqu
 ---
 
 ## 📁 Project Structure
-📦 spam-detector/
-├── app.py # Streamlit app
-├── model.pkl # Final trained MultinomialNB model
-├── vectorizer.pkl # Trained TF-IDF vectorizer
-├── spam.csv # Dataset (SMS Spam Collection)
-├── requirements.txt # List of dependencies
-└── README.md # Project description
-
+  ```bash
+  📦 spam-detector/
+  ├── app.py # Streamlit app
+  ├── model.pkl # Final trained MultinomialNB model
+  ├── vectorizer.pkl # Trained TF-IDF vectorizer
+  ├── spam.csv # Dataset (SMS Spam Collection)
+  ├── requirements.txt # List of dependencies
+  └── README.md # Project description
+  ```
+---
 
 ## ✅ Setup Instructions
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/tahirkorma/spam-detector.git
-cd spam-detector
-```bash
+   ```bash
+   git clone https://github.com/tahirkorma/spam-detector.git
+   cd spam-detector
 
 2. **Create and activate a virtual environment**
-```bash
-# Create venv
-python -m venv venv
+   ```bash
+   # Create venv
+   python -m venv venv
 
-```bash
-# Activate (Windows)
-venv\Scripts\activate
-
-```bash
-# Activate (macOS/Linux)
-source venv/bin/activate
-
-```bash
 3. **Install dependencies**
-pip install -r requirements.txt
-```bash
+   ```bash
+   pip install -r requirements.txt
 
-4. **Run the Streamlit app**
-streamlit run app.py
+4. **Run the app**
+    ```bash
+    streamlit run app.py
 
+## 🚀 Live Demo
 
+🎯 Check out the live working app here:
 
+👉 [Click to Open Live Spam Detector](https://spamdetectorbytahirkorma.streamlit.app)
 
+💡 You can input your own text and instantly see if it's classified as **Spam** or **Not Spam**.
